@@ -1,0 +1,49 @@
+/* Write your code here. */
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+h1{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.btn {
+  border: none;
+  color: #fff;
+  width: 100%;
+  padding: 20px 25px;
+  margin: 15px 0;
+  border-radius: 10px;
+}
+.blueBtn {
+  background-color: rgb(38, 116, 243);
+}
+.greenBtn {
+  background-color: rgb(57, 201, 107);
+}
+.yellowBtn {
+  background-color: rgb(255, 255, 50);
+}
+.redBtn {
+  background-color: red;
+}
+.btnInner{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.btnInner p{
+  font-size: 20px;
+}
+.btnImg {
+  height: 40px;
+}
